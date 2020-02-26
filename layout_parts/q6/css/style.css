@@ -3,3 +3,26 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+
+.q6_box_text {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  width: 90px;
+  background-color: #E6F2FF;
+}
+
+
+
+.table_text_box {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table_text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
