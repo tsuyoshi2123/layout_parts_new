@@ -3,3 +3,36 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+table {
+  width: 100%;  
+  table-layout: fixed;
+}
+
+td {
+  border: 1px solid #dedede;
+}
+
+th {
+  padding: 10px 0;
+  background-color: #2244aa;
+  border: 1px solid #dedede;
+  font-size: 18px ;
+  line-height: 26px;
+  color: #fff;
+}
+
+.q3_content tbody tr:nth-child(odd) td {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.q3_content tbody tr:nth-child(even) td {
+  background-color: #ecf1f2;
+  text-align: center;
+}
+
+.under-line {
+  border-bottom: dashed #000 2px;
+}
