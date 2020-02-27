@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q5 {
+.q5_content_box {
   position: relative;
   width: 500px;
   height: 500px;
@@ -17,11 +17,8 @@
   background-color: #DE70CF;
 }
 
-.q-8::before {
-  position: relative;
-}
 
-.mini_box::after {
+.q-8::after {
   position: absolute;
   top: 0px;
   right: 0px;

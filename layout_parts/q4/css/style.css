@@ -26,17 +26,17 @@
   padding: 20px;
 }
 
-.top-fixed:first-child {
+.Flesh-color {
   background-color: #fdc8b8;
 }
 
-.top-bariable {
+.purple {
   text-align: center;
   padding: 20px;
   background-color:  #e0abd9;
 }
 
-.top-fixed:last-child {
+.blue {
   background-color: #b6d8ed;
 }
 
@@ -45,12 +45,12 @@
   display: table-cell;
 }
 
-.bottom-yelllo {
+.yelllo {
   padding: 20px;
   background-color: #e5d32e;
 }
 
-.bottom-red {
+.red {
   padding: 20px;
   background-color: #ec8f9a;
 }

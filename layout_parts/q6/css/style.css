@@ -4,19 +4,34 @@
 
 /* 回答はここに書いてね */
 
+.is-textalign {
+  text-align: center;
+}
 
 .q6_box_text {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
   padding: 10px 0;
   width: 90px;
   background-color: #E6F2FF;
 }
 
+.inner_text-align {
+  display: inline-block;
+  /* text-align: center; */
+}
+
+.inner_margin_text{
+  margin: 0 auto;
+}
+
+
 .q6_box_content {
   display: table;
   margin: 0 auto;
 }
+
+
 
 
 .is-table {
@@ -55,6 +70,6 @@
 .inner-variable {
   position: relative;
   transform: translateY(-50%) translateX(-50%);
-  top: 50%; 
+  top: 50%;
   left: 50%;
 }

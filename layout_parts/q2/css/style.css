@@ -6,14 +6,14 @@
   clear: both;
 }
 
-.q2 {
+.q2_text_box {
   width: 900px;
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
 }
 
-.top-img {
+.left-img {
   float:left;
   margin-right: 20px;
   margin-bottom: 10px
@@ -25,7 +25,7 @@
   line-height: 22px;
 }
 
-.bottom-img {
+.right-img {
   float: right;
   margin-bottom: 10px;
   margin-left: 20px; 

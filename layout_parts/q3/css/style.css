@@ -4,7 +4,7 @@
 
 /* 回答はここに書いてね */
 
-.q3_content {
+.cel-box {
   width: 100%;  
   table-layout: fixed;
 }
@@ -34,6 +34,6 @@ th {
   text-align: center;
 }
 
-.under-line {
-  border-bottom: dashed #000 2px;
+.q3_content .boder-top {
+  border-top: dashed #000 2px;
 }
