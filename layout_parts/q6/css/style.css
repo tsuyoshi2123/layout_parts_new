@@ -13,16 +13,48 @@
   background-color: #E6F2FF;
 }
 
+.q6_box_content {
+  display: table;
+  margin: 0 auto;
+}
 
 
-.table_text_box {
+.is-table {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  background-color: #ECF1F2;
+}
+
+.is-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ECF1F2;
 }
 
 .table_text {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
+}
+
+.q6__box {
+  position: relative;
+}
+
+.inner-fixed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.inner-variable {
+  position: relative;
+  transform: translateY(-50%) translateX(-50%);
+  top: 50%; 
+  left: 50%;
 }
