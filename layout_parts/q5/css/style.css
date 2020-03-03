@@ -18,7 +18,6 @@
   line-height: 100px;
 }
 
-
 .q-8 {
   top: 120px;
   left: 120px;
@@ -26,18 +25,15 @@
   background-color: #DE70CF;
 }
 
-
 .q-8::after {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   width: 20px;
   height: 20px;
   content: "";
-  background-color:  #FFEFD3;
+  background-color: #FFEFD3;
 }
-
-
 
 .q-5 {
   top: 360px;
