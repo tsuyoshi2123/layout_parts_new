@@ -9,12 +9,12 @@
   table-layout: fixed;
 }
 
-td {
+table td {
   border: 1px solid #dedede;
   padding: 10px;
 }
 
-th {
+table th {
   padding: 10px 0;
   background-color: #2244aa;
   border: 1px solid #dedede;
@@ -23,17 +23,17 @@ th {
   color: #fff;
 }
 
-.q3_content tbody tr:nth-child(odd) td {
+.cel-box tbody tr:nth-child(odd) td {
   text-align: center;
   font-size: 16px;
   line-height: 22px;
 }
 
-.q3_content tbody tr:nth-child(even) td {
+.cel-box tbody tr:nth-child(even) td {
   background-color: #ecf1f2;
   text-align: center;
 }
 
-.q3_content .boder-top {
+table tbody tr:last-child {
   border-top: dashed #000 2px;
 }

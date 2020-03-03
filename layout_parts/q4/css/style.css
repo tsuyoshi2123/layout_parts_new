@@ -20,9 +20,9 @@
 }
 
 .top-fixed {
+  /* display: table-cell; */
   text-align: center;
-  display: table-cell;
-  width: 100px; 
+  width: 100px;
   padding: 20px;
 }
 
@@ -40,26 +40,32 @@
   background-color: #b6d8ed;
 }
 
-.bariable {
+.bttom-bariable {
+  /* display: table-cell; */
   text-align: center;
-  display: table-cell;
 }
 
 .yelllo {
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #e5d32e;
 }
 
 .red {
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #ec8f9a;
 }
 
-.bottom-fixed {
+.green {
+  background-color: #8fdcad;
+}
+
+body div div div div div {
   display: table-cell;
+}
+
+.bttom-fixed {
+  /* display: table-cell; */
   text-align: center;
   padding: 20px;
   width: 500px;
-  display: table-cell;
-  background-color: #8fdcad;
 }

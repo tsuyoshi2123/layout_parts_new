@@ -9,7 +9,6 @@
 }
 
 .q6_box_text {
-  /* margin: 0 auto; */
   text-align: center;
   padding: 10px 0;
   width: 90px;
@@ -18,7 +17,6 @@
 
 .inner_text-align {
   display: inline-block;
-  /* text-align: center; */
 }
 
 .inner_margin_text{
@@ -31,22 +29,18 @@
   margin: 0 auto;
 }
 
-
-
-
 .is-table {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  background-color: #ECF1F2;
 }
 
 .is-flex {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ECF1F2;
 }
+
 
 .table_text {
   display: inline-block;
@@ -54,9 +48,13 @@
   background-color: #fff;
 }
 
-.q6__box {
+/* position　box */
+
+.bottom_content_box {
   position: relative;
 }
+
+/* position 可変 */
 
 .inner-fixed {
   position: absolute;
@@ -67,9 +65,14 @@
   margin: auto;
 }
 
+/* position 可変 */
+
 .inner-variable {
-  position: relative;
-  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
   top: 50%;
   left: 50%;
+  text-align: center;
+  transform: translateY(-50%) translateX(-50%);
 }
+
+
