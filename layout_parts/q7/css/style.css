@@ -54,10 +54,6 @@
   vertical-align: middle;
 }
 
-.is-display {
-  display: inline-block;
-}
-
 /* q7-3 */
 
 .q7-3_box {
@@ -66,6 +62,7 @@
 
 .q7-3_text {
   margin-left: 50px;
+  display: inline-block;
 }
 
 .q7-3_text:first-child {
@@ -89,6 +86,7 @@
 
 .q7-5_left_box{
   width: 300px;
+  display: inline-block;
 }
 
 .q7-5_right_box{
@@ -97,4 +95,5 @@
   padding-left: 350px;
   box-sizing: border-box;
   vertical-align: top;
+  display: inline-block;
 }

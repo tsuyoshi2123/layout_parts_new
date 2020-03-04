@@ -10,27 +10,22 @@
   margin: 0 auto;
 }
 
-.balloon_text:before,
-.balloon_text:after{
+.balloon_text::before,
+.balloon_text::after {
   content: "";
   position: absolute;
   width: 0;
   height: 0;
   left: 37px;
-  border-style: solid;
-  transform: rotate(45deg);
+  bottom: -30px;
+  border-top: 30px solid #222;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
 }
 
-.balloon_text:before {
-  bottom: -20px;
-  border-color: transparent transparent #222;
-  border-width: 9px 0 30px 31.32px;
+.balloon_text::after {
+  bottom: -22px;
+  border-top-color: #fff;
 }
 
-.balloon_text:after {
-  bottom: -13px;
-  border-color: transparent transparent #fff ;
-  border-width: 7px 0px 29px 30.32px;
-  z-index: 10;
-}
 /* 回答はここに書いてね */
