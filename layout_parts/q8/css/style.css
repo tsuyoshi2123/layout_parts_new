@@ -10,7 +10,6 @@
   margin: 0 auto;
 }
 
-
 .aligncenter {
   transition: .5s ease;
 }
@@ -33,7 +32,6 @@
   bottom: 0;
 }
 
-
 .q8_trans_text {
   position: absolute;
   bottom: 0;
@@ -52,18 +50,16 @@
   border: 10px solid #ECF1F2;
   border-top-color: #00BCD4;
   border-radius: 50%;
-  /* animation: loading 1.1s infinite linear; */
 }
 
 .is-animation {
   animation: loading 1.1s infinite linear;
 }
 
-
 @keyframes loading {
   0% {
     transform: rotate(0);
-  }
+}
   100% {
     transform: rotate(360deg);
   }
